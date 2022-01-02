@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.loginBox {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.LoginPic {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.loginForm {
+  width: 400px;
+  padding: 8px;
+}
+.forgetDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 10px auto;
+  color: #09deea;
+  cursor: pointer;
+  font-weight: bold;
+}
+.notAcc {
+  font-weight: bold;
+}
+@media only screen and (max-width: 704px) {
+  .loginBox {
+    align-items: stretch;
+  }
+  .LoginPic {
+    margin: 20px 0 10px 0;
+    max-width: 300px;
+  }
+}
+
+.mainLoginBox {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.adminLoginBox {
+  width: 100%;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 35px;
+  background-color: white;
+}
+
+.adminLoginimg {
+  width: 50%;
+  background-color: whitesmoke;
+
+}
+.adminLoginForm {
+  width: 50%;
+  padding: 10px;
+}
+
+.adminLoginForm div {
+  width: 100%;
+}
+.adminLoginForm h1 {
+  text-align: center;
+}
+
+.adminLoginForm input {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  margin: 15px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.adminLoginForm button {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+  background-color: #436cc3;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: all 0.6s ease;
+  font-weight: bold;
+
+}
+.adminLoginForm button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  background-color: #43c34a;
+}
